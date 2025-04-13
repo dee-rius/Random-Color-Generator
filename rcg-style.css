@@ -1,0 +1,56 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+p{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+#generated-color-text-holder{
+    padding-right: 0px;
+}
+
+strong{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.has-transition{
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+#generated-color-text-holder:hover{
+    background-color: black;
+    color: white;
+}
+
+#generated-color-text-holder:hover strong{
+    background-color: white;
+    color: black;
+}
